@@ -52,9 +52,16 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="three"
+        name="todo"
         options={{
-          title: 'Tab Three',
+          title: 'ToDo List',
+          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="test"
+        options={{
+          title: 'Test',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
